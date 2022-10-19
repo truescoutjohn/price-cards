@@ -1,0 +1,74 @@
+.main {
+  display: flex;
+  column-gap: 18px;
+  width: 1176px;
+  margin: 115px auto;
+}
+
+.basic {
+  flex: 1 1 0;
+  background-color: $cardBackgroundColor;
+}
+
+.business {
+  position: relative;
+  overflow: hidden;
+  flex: 1 1 0;
+  background-color: $cardBackgroundColor;
+
+  &__label {
+    position: absolute;
+    right: -31px;
+    top: 30px;
+    padding-top: 4px;
+    padding-bottom: 5px;
+    width: 147px;
+    text-transform: uppercase;
+    text-align: center;
+    background: #dc3f45;
+    transform: rotate(45deg);
+    color: $fontPrimaryColor;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  &__order-button {
+    background-color: $primaryBusinessColor;
+  }
+
+  &__list-item {
+    &::before {
+      content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+      position: absolute;
+      top: 18px;
+      left: 22px;
+    }
+  }
+
+  &__price {
+    background-color: $primaryBusinessColor;
+  }
+}
+
+.webshop {
+  flex: 1 1 0;
+  background-color: $cardBackgroundColor;
+
+  &__order-button {
+    background-color: $primaryWebshopColor;
+  }
+
+  &__list-item {
+    &::before {
+      content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+      position: absolute;
+      top: 18px;
+      left: 22px;
+    }
+  }
+
+  &__price {
+    background-color: $primaryWebshopColor;
+  }
+}

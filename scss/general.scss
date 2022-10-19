@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.naming {
+  padding: 33px 0;
+
+  &__heading {
+    margin: 0;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 31px;
+    text-align: center;
+    color: $fontPrimaryColor;
+  }
+
+  &__caption {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: $fontPrimaryColor;
+  }
+}
+
+.price {
+  padding: 19px 0;
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 67px;
+  text-align: center;
+  color: $fontPrimaryColor;
+  background-color: $primaryBasicColor;
+}
+
+.description {
+  margin: 0 auto 40px;
+  width: 327px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.list-advantages {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 39px;
+  list-style: none;
+
+  &__item {
+    position: relative;
+    padding: 16px 0;
+    padding-left: 59px;
+    color: $fontPrimaryColor;
+
+    &:nth-of-type(odd) {
+      background: $oddBackgroundEventColor;
+    }
+
+    &::before {
+      content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+      position: absolute;
+      top: 18px;
+      left: 22px;
+    }
+  }
+}
+
+.order-button {
+  display: block;
+  padding: 11px 27px 12px 28px;
+  margin: 0 auto 40px;
+  border: none;
+  outline: none;
+  width: 155px;
+  height: 40px;
+  background: #5bb189;
+  border-radius: 20px;
+  font-size: 14px;
+  line-height: 17px;
+  color: $fontPrimaryColor;
+  text-transform: uppercase;
+}
