@@ -27,11 +27,12 @@ body {
 
   &__label {
     position: absolute;
-    right: -31px;
     top: 30px;
+    right: -35px;
     padding-top: 4px;
     padding-bottom: 5px;
     width: 147px;
+    height: 25px;
     text-transform: uppercase;
     text-align: center;
     background: $labelBackgroundColor;
@@ -43,14 +44,14 @@ body {
   }
 
   &__title {
-    margin: 33px 0 0;
+    margin-top: 33px;
   }
 
   &__heading {
     margin: 0;
     font-weight: 700;
     font-size: 35px;
-    line-height: 31px;
+    line-height: 43px;
     text-align: center;
     color: $fontPrimaryColor;
   }
@@ -83,8 +84,7 @@ body {
   }
 
   &__description {
-    margin: 0 auto;
-    margin-top: 40px;
+    margin: 40px auto 0;
     width: 327px;
     font-weight: 300;
     font-size: 15px;

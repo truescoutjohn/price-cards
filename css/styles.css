@@ -26,11 +26,12 @@ body {
 }
 .price-card__label {
   position: absolute;
-  right: -31px;
   top: 30px;
+  right: -35px;
   padding-top: 4px;
   padding-bottom: 5px;
   width: 147px;
+  height: 25px;
   text-transform: uppercase;
   text-align: center;
   background: #dc3f45;
@@ -41,13 +42,13 @@ body {
   line-height: 17px;
 }
 .price-card__title {
-  margin: 33px 0 0;
+  margin-top: 33px;
 }
 .price-card__heading {
   margin: 0;
   font-weight: 700;
   font-size: 35px;
-  line-height: 31px;
+  line-height: 43px;
   text-align: center;
   color: #fff;
 }
@@ -75,8 +76,7 @@ body {
   background-color: #ec632a;
 }
 .price-card__description {
-  margin: 0 auto;
-  margin-top: 40px;
+  margin: 40px auto 0;
   width: 327px;
   font-weight: 300;
   font-size: 15px;
