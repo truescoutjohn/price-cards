@@ -43,7 +43,7 @@ body {
   }
 
   &__title {
-    padding: 33px 0;
+    margin: 33px 0 0;
   }
 
   &__heading {
@@ -65,7 +65,7 @@ body {
 
   &__price {
     padding: 19px 0;
-    margin-bottom: 40px;
+    margin-top: 33px;
     font-weight: 700;
     font-size: 55px;
     line-height: 67px;
@@ -83,7 +83,8 @@ body {
   }
 
   &__description {
-    margin: 0 auto 40px;
+    margin: 0 auto;
+    margin-top: 40px;
     width: 327px;
     font-weight: 300;
     font-size: 15px;
@@ -95,7 +96,7 @@ body {
   &__options-list {
     padding: 0;
     margin: 0;
-    margin-bottom: 39px;
+    margin-top: 40px;
     list-style: none;
   }
 
@@ -134,12 +135,12 @@ body {
   &__order-btn {
     display: block;
     padding: 11px 27px 12px 28px;
-    margin: 0 auto 40px;
+    margin: 40px auto;
     border: none;
     outline: none;
     width: 155px;
     height: 40px;
-    background: #5bb189;
+    background: $primaryBasicColor;
     border-radius: 20px;
     font-size: 14px;
     line-height: 17px;

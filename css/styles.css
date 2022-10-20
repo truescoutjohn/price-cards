@@ -41,7 +41,7 @@ body {
   line-height: 17px;
 }
 .price-card__title {
-  padding: 33px 0;
+  margin: 33px 0 0;
 }
 .price-card__heading {
   margin: 0;
@@ -60,7 +60,7 @@ body {
 }
 .price-card__price {
   padding: 19px 0;
-  margin-bottom: 40px;
+  margin-top: 33px;
   font-weight: 700;
   font-size: 55px;
   line-height: 67px;
@@ -75,7 +75,8 @@ body {
   background-color: #ec632a;
 }
 .price-card__description {
-  margin: 0 auto 40px;
+  margin: 0 auto;
+  margin-top: 40px;
   width: 327px;
   font-weight: 300;
   font-size: 15px;
@@ -86,7 +87,7 @@ body {
 .price-card__options-list {
   padding: 0;
   margin: 0;
-  margin-bottom: 39px;
+  margin-top: 40px;
   list-style: none;
 }
 .price-card__list-item {
@@ -115,7 +116,7 @@ body {
 .price-card__order-btn {
   display: block;
   padding: 11px 27px 12px 28px;
-  margin: 0 auto 40px;
+  margin: 40px auto;
   border: none;
   outline: none;
   width: 155px;
