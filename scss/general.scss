@@ -7,8 +7,35 @@ body {
   background-color: #141b1c;
 }
 
-.naming {
-  padding: 33px 0;
+.price-card {
+  flex: 1 1 0;
+  background-color: $cardBackgroundColor;
+
+  &_business-style {
+    position: relative;
+    overflow: hidden;
+  }
+
+  &__label {
+    position: absolute;
+    right: -31px;
+    top: 30px;
+    padding-top: 4px;
+    padding-bottom: 5px;
+    width: 147px;
+    text-transform: uppercase;
+    text-align: center;
+    background: $labelBackgroundColor;
+    transform: rotate(45deg);
+    color: $fontPrimaryColor;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  &__title {
+    padding: 33px 0;
+  }
 
   &__heading {
     margin: 0;
@@ -26,34 +53,42 @@ body {
     text-align: center;
     color: $fontPrimaryColor;
   }
-}
 
-.price {
-  padding: 19px 0;
-  margin-bottom: 40px;
-  font-weight: 700;
-  font-size: 55px;
-  line-height: 67px;
-  text-align: center;
-  color: $fontPrimaryColor;
-  background-color: $primaryBasicColor;
-}
+  &__price {
+    padding: 19px 0;
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 67px;
+    text-align: center;
+    color: $fontPrimaryColor;
+    background-color: $primaryBasicColor;
 
-.description {
-  margin: 0 auto 40px;
-  width: 327px;
-  font-weight: 300;
-  font-size: 15px;
-  line-height: 18px;
-  text-align: center;
-  color: #ffffff;
-}
+    &_business-color {
+      background-color: $primaryBusinessColor;
+    }
 
-.list-advantages {
-  padding: 0;
-  margin: 0;
-  margin-bottom: 39px;
-  list-style: none;
+    &_webshop-color {
+      background-color: $primaryWebshopColor;
+    }
+  }
+
+  &__description {
+    margin: 0 auto 40px;
+    width: 327px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  &__options-list {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 39px;
+    list-style: none;
+  }
 
   &__item {
     position: relative;
@@ -71,21 +106,41 @@ body {
       top: 18px;
       left: 22px;
     }
-  }
-}
 
-.order-button {
-  display: block;
-  padding: 11px 27px 12px 28px;
-  margin: 0 auto 40px;
-  border: none;
-  outline: none;
-  width: 155px;
-  height: 40px;
-  background: #5bb189;
-  border-radius: 20px;
-  font-size: 14px;
-  line-height: 17px;
-  color: $fontPrimaryColor;
-  text-transform: uppercase;
+    &_business-color {
+      &::before {
+        content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
+      }
+    }
+
+    &_webshop-color {
+      &::before {
+        content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+      }
+    }
+  }
+
+  &__order-btn {
+    display: block;
+    padding: 11px 27px 12px 28px;
+    margin: 0 auto 40px;
+    border: none;
+    outline: none;
+    width: 155px;
+    height: 40px;
+    background: #5bb189;
+    border-radius: 20px;
+    font-size: 14px;
+    line-height: 17px;
+    color: $fontPrimaryColor;
+    text-transform: uppercase;
+
+    &_business-color {
+      background-color: $primaryBusinessColor;
+    }
+
+    &_webshop-color {
+      background-color: $primaryWebshopColor;
+    }
+  }
 }
