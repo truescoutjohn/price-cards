@@ -18,6 +18,7 @@ body {
 
 .price-card {
   flex: 1 1 0;
+  height: 770px;
   background-color: #334247;
 }
 .price-card_business-style {
