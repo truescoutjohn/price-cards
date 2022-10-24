@@ -94,24 +94,20 @@
     &:nth-of-type(odd) {
       background: $oddBackgroundEventColor;
     }
+  }
 
-    &::before {
-      content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
-      position: absolute;
-      top: 18px;
-      left: 22px;
-    }
+  &__icon {
+    content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+    position: absolute;
+    top: 18px;
+    left: 22px;
 
     &_business-color {
-      &::before {
-        content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
-      }
+      content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
     }
 
     &_webshop-color {
-      &::before {
-        content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
-      }
+      content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
     }
   }
 }
