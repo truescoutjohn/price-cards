@@ -114,6 +114,7 @@ body {
 .price-card__list-item_webshop-color::before {
   content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
 }
+
 .price-card__order-btn {
   display: block;
   padding: 11px 27px 12px 28px;
