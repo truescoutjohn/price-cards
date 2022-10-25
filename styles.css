@@ -33,10 +33,10 @@ body {
   padding-bottom: 5px;
   width: 147px;
   height: 25px;
+  transform: rotate(45deg);
   text-transform: uppercase;
   text-align: center;
   background: #dc3f45;
-  transform: rotate(45deg);
   color: #fff;
   font-weight: 700;
   font-size: 14px;
@@ -114,17 +114,16 @@ body {
 .price-card__icon_webshop-color {
   content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
 }
-
 .price-card__order-btn {
   display: block;
   padding: 11px 27px 12px 28px;
   margin: 40px auto;
-  border: none;
-  outline: none;
   width: 155px;
   height: 40px;
-  background: #5bb189;
+  border: none;
   border-radius: 20px;
+  outline: none;
+  background: #5bb189;
   font-size: 14px;
   line-height: 17px;
   color: #fff;

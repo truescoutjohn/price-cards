@@ -16,10 +16,10 @@
     padding-bottom: 5px;
     width: 147px;
     height: 25px;
+    transform: rotate(45deg);
     text-transform: uppercase;
     text-align: center;
     background: $labelBackgroundColor;
-    transform: rotate(45deg);
     color: $fontPrimaryColor;
     font-weight: 700;
     font-size: 14px;
@@ -108,6 +108,30 @@
 
     &_webshop-color {
       content: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
+    }
+  }
+
+  &__order-btn {
+    display: block;
+    padding: 11px 27px 12px 28px;
+    margin: 40px auto;
+    width: 155px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    background: $primaryBasicColor;
+    font-size: 14px;
+    line-height: 17px;
+    color: $fontPrimaryColor;
+    text-transform: uppercase;
+
+    &_business-color {
+      background-color: $primaryBusinessColor;
+    }
+
+    &_webshop-color {
+      background-color: $primaryWebshopColor;
     }
   }
 }
