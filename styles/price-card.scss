@@ -57,11 +57,11 @@
     color: $fontPrimaryColor;
     background-color: $primaryBasicColor;
 
-    &_business-color {
+    &_blue {
       background-color: $primaryBusinessColor;
     }
 
-    &_webshop-color {
+    &_orange {
       background-color: $primaryWebshopColor;
     }
   }
@@ -73,7 +73,7 @@
     font-size: 15px;
     line-height: 18px;
     text-align: center;
-    color: #ffffff;
+    color: $priceCardDescriptionColor;
   }
 
   &__options-list {
@@ -85,7 +85,7 @@
 
   &__list-item {
     position: relative;
-    padding: 16px 0 16px 59px;
+    padding: 16px 0 16px 22px;
     font-weight: 300;
     font-size: 15px;
     line-height: 18px;
@@ -97,18 +97,20 @@
   }
 
   &__icon {
-    position: absolute;
-    top: 18px;
-    left: 22px;
+    display: inline-block;
+    font-size: 0;
+    margin-right: 19px;
     height: 13px;
     width: 15px;
-    background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
 
-    &_business-color {
+    &_green {
+      background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png);
+    }
+    &_blue {
       background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png);
     }
 
-    &_webshop-color {
+    &_orange {
       background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png);
     }
   }
@@ -128,11 +130,11 @@
     color: $fontPrimaryColor;
     text-transform: uppercase;
 
-    &_business-color {
+    &_blue {
       background-color: $primaryBusinessColor;
     }
 
-    &_webshop-color {
+    &_orange {
       background-color: $primaryWebshopColor;
     }
   }
