@@ -1,6 +1,6 @@
 # Price Cards
 
-### [Site link](https://truscoutjohn.github.io/price-cards/)
+### [Site link](https://truescoutjohn.github.io/price-cards/)
 
 Layout supports desktop (up-to-1440) version
 
